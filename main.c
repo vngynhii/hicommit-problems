@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main() {
-  if (scanf("%d",&n))==1) {
-    if (n%2==0) {
-      printf("CHAN\n");
-      else 
-      print("LE\n");
-      
-    }
-    
+int main() 
+{
+  long n;
+  int n;
+  scanf("%d", &n);
+  if (n%2==0){
+    print("CHAN\n");
+  } else {
+    printf("LE\n");
   }
   return 0;
 }
