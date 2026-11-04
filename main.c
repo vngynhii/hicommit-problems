@@ -7,13 +7,13 @@ int main() {
 {
   printf("HOC_BONG_XUAT_SAC");
   } 
-  else if (8.0<=dtb<9.0&&drl 80<=dtl<90) 
+  else if (8.0<=dtb<9.0 && 80<=dtl<90) 
 {
   printf("HOC_BONG_GIOI");
-  } else if (7.0<=dtb<=8.0&&drl 70<=drl<80)
+  } else if (7.0<=dtb<=8.0 && 70<=drl<80)
 {
   printf("HOC_BONG_KHA");
-  } else (dtb<=7.0&& drl<70)
+}else (dtb<=7.0&& drl<70)
 {
   printf("KHONG_DAT");
   }
