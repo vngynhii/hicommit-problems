@@ -13,9 +13,12 @@ int main() {
 } else if (7.0<=dtb<=8.0 && 70<=drl<80)
 {
   printf("HOC_BONG_KHA");
-} else (dtb<=7.0&& drl<70)
+} else if (dtb<=7.0&& drl<70)
 {
+
   printf("KHONG_DAT");
-  }
+  } 
+  else{printf("KHONG_DAT");
+}
  return 0;
 }
