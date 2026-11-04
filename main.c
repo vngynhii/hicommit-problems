@@ -13,8 +13,8 @@ int main(void) {
   printf("XEP_LOAI_KHA");break;
       case 4:
   printf("XEP_LOAI_TRUNG BINH");break;
-      case 5:
-      printf("KHONG_HOP_LE");break;
+      default:
+      printf("KHONG_HOP_LE");
     }
   return 0;
 }
