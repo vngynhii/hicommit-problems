@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main(voi) {
+int main() {
   int kq;
   scanf("%d",&kq);
-  switch()
+  switch(kq)
     {
       case 1:
   printf("XEP_LOAI_XUAT_SAC");break;
