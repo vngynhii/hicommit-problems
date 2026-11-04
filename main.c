@@ -1,11 +1,20 @@
 #include <stdio.h>
 
 int main(voi) {
-  int n;
+  int kq;
+  scanf("%d",&kq);
   switch()
     {
-      case 1;
+      case 1:
   printf("XEP_LOAI_XUAT_SAC");break;
+      case 2:
+  printf("XEP_LOAI_GIOI");break;
+      case 3:
+  printf("XEP_LOAI_KHA");break;
+      case 4:
+  printf("XEP_LOAI_TRUNG BINH");break
+      case 5:
+      printf("KHONG_HOP_LE");break
     }
   return 0;
 }
